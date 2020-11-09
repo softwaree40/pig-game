@@ -1,0 +1,29 @@
+body {
+  background-color: brown;
+  width: 60px;
+  height: 40px;
+}
+.game-divider1 {
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 50%;
+  width: 50px;
+  height: 25px;
+  background-color: green;
+  /* z-index: 10p; */
+}
+.game-divider2 {
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 50%;
+  width: 50px;
+  height: 25px;
+  background-color: blue;
+  /* z-index: 5; */
+}
+.game-container {
+  float: left;
+  display: flex;
+}
+.current-game {
+  border: 100px solid red;
+  border-radius: 30px;
+}
